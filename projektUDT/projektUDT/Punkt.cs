@@ -63,9 +63,9 @@ public struct Punkt : INullable
             return Null;
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 2)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 2)");
         }
 
         List<double> tmp = new List<double>();
@@ -87,7 +87,6 @@ public struct Punkt : INullable
     }
 
     // This is a place-holder field member
-    public static int arguments_amount = 2;
     // Private member
     private bool m_Null;
 }

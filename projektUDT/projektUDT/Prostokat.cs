@@ -37,6 +37,11 @@ public struct Prostokat : INullable
         wspolrz_x4 = args[6];
         wspolrz_y4 = args[7];
 
+        bok_a = .0;
+        bok_b = .0;
+        bok_c = .0;
+        bok_d = .0;
+
         this.WyznaczBoki();
     }
 
@@ -56,23 +61,31 @@ public struct Prostokat : INullable
     public bool Validator()
     {
         return bok_a == bok_c
-            && bok_b == bok_d;
+            && bok_b == bok_d
+            && this.WyznaczPole() != 0;
     }
 
     public double WyznaczObwod()
     {
-        return 2*bok_a + 2*bok_b;
+        return Math.Round(2*bok_a + 2*bok_b, 2);
     }
 
     public double WyznaczPole()
     {
-        return bok_a * bok_b;
+        return Math.Round(bok_a * bok_b, 2);
     }
 
     public override string ToString()
     {
-        // Replace the following code with your code
-        return "";
+        string returning_str = "Prostokat o wspolrzednych (" + this.wspolrz_x1.ToString()
+                + ", " + this.wspolrz_y1.ToString() + "), ("
+                + this.wspolrz_x2.ToString()
+                + ", " + this.wspolrz_y2.ToString() + "), ("
+                + this.wspolrz_x3.ToString()
+                + ", " + this.wspolrz_y3.ToString() + ") oraz ("
+                + this.wspolrz_x4.ToString()
+                + ", " + this.wspolrz_y4.ToString() + ").";
+        return returning_str;
     }
 
     public bool IsNull
@@ -101,9 +114,9 @@ public struct Prostokat : INullable
 
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
         }
 
         List<double> tmp = new List<double>();
@@ -126,7 +139,6 @@ public struct Prostokat : INullable
     }
 
     // This is a place-holder field member
-    public static int arguments_amount = 8;
     private bool m_Null;
 }
 

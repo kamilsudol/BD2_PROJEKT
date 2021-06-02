@@ -32,6 +32,10 @@ public struct Trojkat : INullable
         wspolrz_x3 = args[4];
         wspolrz_y3 = args[5];
 
+        bok_a = .0;
+        bok_b = .0;
+        bok_c = .0;
+
         this.WyznaczBoki();
     }
 
@@ -49,13 +53,13 @@ public struct Trojkat : INullable
 
     public double WyznaczObwod()
     {
-        return this.bok_a + this.bok_b + this.bok_c;
+        return Math.Round(this.bok_a + this.bok_b + this.bok_c, 2);
     }
 
     public double WyznaczPole()
     {
         double p = 0.5 * this.WyznaczObwod();
-        return Math.Sqrt(p * (p - this.bok_a) * (p - this.bok_c) * (p - this.bok_c));
+        return Math.Round(Math.Sqrt(p * (p - this.bok_a) * (p - this.bok_b) * (p - this.bok_c)), 2);
     }
 
     public bool Validator() {
@@ -67,9 +71,18 @@ public struct Trojkat : INullable
 
     public override string ToString()
     {
-        // Replace the following code with your code
-        return "";
+        string returning_str = "Trojkat o wspolrzednych (" + this.wspolrz_x1.ToString()
+                + ", " + this.wspolrz_y1.ToString() + "), ("
+                + this.wspolrz_x2.ToString()
+                + ", " + this.wspolrz_y2.ToString() + ") oraz ("
+                + this.wspolrz_x3.ToString()
+                + ", " + this.wspolrz_y3.ToString() + ").";
+        return returning_str;
     }
+
+    /*public string boki() {
+        return this.bok_a.ToString() + ", " + this.bok_b.ToString() + ", " + this.bok_c.ToString();
+    }*/
 
     public bool IsNull
     {
@@ -97,9 +110,9 @@ public struct Trojkat : INullable
 
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 6)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 6)");
         }
 
         List<double> tmp = new List<double>();
@@ -123,7 +136,6 @@ public struct Trojkat : INullable
     }
 
     // This is a place-holder field member
-    public static int arguments_amount = 6;
     private bool m_Null;
 }
 

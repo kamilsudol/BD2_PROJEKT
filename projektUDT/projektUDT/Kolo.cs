@@ -26,7 +26,9 @@ public struct Kolo : INullable
         wspolrz_x2 = args[2];
         wspolrz_y2 = args[3];
 
-        WyznaczPromien();
+        promien = .0;
+
+        this.WyznaczPromien();
     }
 
     public void WyznaczPromien()
@@ -51,7 +53,7 @@ public struct Kolo : INullable
 
     public override string ToString()
     {
-        string returning_str = "Kolo o promieniu " + this.promien.ToString()
+        string returning_str = "Kolo o promieniu " + Math.Round(this.promien, 2).ToString()
                 + " o wspolrzednych srodka (" + this.wspolrz_x1.ToString()
                 + ", " + this.wspolrz_y1.ToString() + ").";
         return returning_str;
@@ -82,9 +84,9 @@ public struct Kolo : INullable
             return Null;
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 4)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 4)");
         }
 
         List<double> tmp = new List<double>();
@@ -101,12 +103,10 @@ public struct Kolo : INullable
             throw new ArgumentException("Niepoprawny typ danych!");
         }
         Kolo u = new Kolo(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Promien kola nie moze wynosic zero!");
+        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc kola z podanych punktow!");
         // Put your code here
         return u;
     }
 
-    // This is a place-holder field member
-    public static int arguments_amount = 4;
     private bool m_Null;
 }

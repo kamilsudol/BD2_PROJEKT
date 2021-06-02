@@ -40,9 +40,13 @@ public struct Prosta : INullable
         return 0.0;
     }
 
+    public bool Validator() {
+        return this.WyznaczDlugosc() != 0;
+    }
+
     public override string ToString()
     {
-        string returning_str = "Prost o dlugosci " + this.WyznaczDlugosc().ToString()
+        string returning_str = "Prosta o dlugosci " + Math.Round(this.WyznaczDlugosc(), 2).ToString()
                 + " o wspolrzednych (" + this.wspolrz_x1.ToString()
                 + ", " + this.wspolrz_y1.ToString() + ") oraz ("
                 + this.wspolrz_x2.ToString()
@@ -76,9 +80,9 @@ public struct Prosta : INullable
 
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 4)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 4)");
         }
 
         List<double> tmp = new List<double>();
@@ -96,12 +100,11 @@ public struct Prosta : INullable
         }
 
         Prosta u = new Prosta(tmp);
-        // Put your code here
+        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc prostej z podanych punktow!");
         return u;
     }
 
     // This is a place-holder field member
-    public static int arguments_amount = 4;
     private bool m_Null;
 }
 

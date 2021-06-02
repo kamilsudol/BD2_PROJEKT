@@ -37,10 +37,15 @@ public struct Kwadrat : INullable
         wspolrz_x4 = args[6];
         wspolrz_y4 = args[7];
 
+        bok_a = .0;
+        bok_b = .0;
+        bok_c = .0;
+        bok_d = .0;
+
         this.WyznaczBoki();
     }
 
-    public void WyznaczBoki(){
+    private void WyznaczBoki(){
         bok_a = this.WyznaczDlugosc(wspolrz_x1, wspolrz_y1, wspolrz_x2, wspolrz_y2);
         bok_b = this.WyznaczDlugosc(wspolrz_x2, wspolrz_y2, wspolrz_x3, wspolrz_y3);
         bok_c = this.WyznaczDlugosc(wspolrz_x3, wspolrz_y3, wspolrz_x4, wspolrz_y4);
@@ -56,23 +61,31 @@ public struct Kwadrat : INullable
         return bok_a == bok_b
             && bok_b == bok_c
             && bok_c == bok_d
-            && bok_d == bok_a;
+            && bok_d == bok_a
+            && this.WyznaczPole() != 0;
     }
 
     public double WyznaczObwod()
     {
-        return 4*bok_a;
+        return Math.Round(4*bok_a, 2);
     }
 
     public double WyznaczPole()
     {
-        return Math.Pow(bok_a, 2);
+        return Math.Round(Math.Pow(bok_a, 2), 2);
     }
 
     public override string ToString()
     {
-        // Replace the following code with your code
-        return "";
+        string returning_str = "Kwadrat o wspolrzednych (" + this.wspolrz_x1.ToString()
+                + ", " + this.wspolrz_y1.ToString() + "), ("
+                + this.wspolrz_x2.ToString()
+                + ", " + this.wspolrz_y2.ToString() + "), ("
+                + this.wspolrz_x3.ToString()
+                + ", " + this.wspolrz_y3.ToString() + ") oraz ("
+                + this.wspolrz_x4.ToString()
+                + ", " + this.wspolrz_y4.ToString() + ").";
+        return returning_str;
     }
 
     public bool IsNull
@@ -101,9 +114,9 @@ public struct Kwadrat : INullable
 
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
         }
 
         List<double> tmp = new List<double>();
@@ -126,7 +139,6 @@ public struct Kwadrat : INullable
     }
 
     // This is a place-holder field member
-    public static int arguments_amount = 8;
     private bool m_Null;
 }
 

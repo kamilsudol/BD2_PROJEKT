@@ -37,6 +37,11 @@ public struct Trapez : INullable
         wspolrz_x4 = args[6];
         wspolrz_y4 = args[7];
 
+        bok_a = .0;
+        bok_b = .0;
+        bok_c = .0;
+        bok_d = .0;
+
         this.WyznaczBoki();
     }
 
@@ -55,11 +60,11 @@ public struct Trapez : INullable
 
     public double WyznaczObwod()
     {
-        return this.bok_a + this.bok_b + this.bok_c + this.bok_d;
+        return Math.Round(this.bok_a + this.bok_b + this.bok_c + this.bok_d, 2);
     }
 
     private double PoleTrojkata(double p, double a, double b, double c) {
-        return Math.Sqrt(p * (p - a) * (p - c) * (p - c));
+        return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
     public double WyznaczPole()
@@ -68,23 +73,30 @@ public struct Trapez : INullable
         double p1 = bok_a + bok_b + przekatna;
         double p2 = przekatna + bok_c + bok_d;
 
-        return this.PoleTrojkata(p1, bok_a, bok_b, przekatna) + this.PoleTrojkata(p2, bok_c, bok_d, przekatna);
+        return Math.Round(this.PoleTrojkata(0.5 * p1, bok_a, bok_b, przekatna) + this.PoleTrojkata(0.5 * p2, bok_c, bok_d, przekatna), 2);
     }
 
     public bool Validator() {
-        double a_a1 = (wspolrz_y2 - wspolrz_y1) / (wspolrz_x2 - wspolrz_x1);
-        double a_a2 = (wspolrz_y4 - wspolrz_y3) / (wspolrz_x4 - wspolrz_x3);
+        double a_a1 = Math.Abs((wspolrz_y2 - wspolrz_y1) / (wspolrz_x2 - wspolrz_x1));
+        double a_a2 = Math.Abs((wspolrz_y4 - wspolrz_y3) / (wspolrz_x4 - wspolrz_x3));
 
-        double a_b1 = (wspolrz_y3 - wspolrz_y2) / (wspolrz_x3 - wspolrz_x2);
-        double a_b2 = (wspolrz_y1 - wspolrz_y4) / (wspolrz_x1 - wspolrz_x4);
+        double a_b1 = Math.Abs((wspolrz_y3 - wspolrz_y2) / (wspolrz_x3 - wspolrz_x2));
+        double a_b2 = Math.Abs((wspolrz_y1 - wspolrz_y4) / (wspolrz_x1 - wspolrz_x4));
 
-        return a_a1 == a_a2 || a_b1 == a_b2;
+        return (a_a1 == a_a2 || a_b1 == a_b2) && this.WyznaczPole() != 0;
     }
 
     public override string ToString()
     {
-        // Replace the following code with your code
-        return "";
+        string returning_str = "Trapez o wspolrzednych (" + this.wspolrz_x1.ToString()
+                + ", " + this.wspolrz_y1.ToString() + "), ("
+                + this.wspolrz_x2.ToString()
+                + ", " + this.wspolrz_y2.ToString() + "), ("
+                + this.wspolrz_x3.ToString()
+                + ", " + this.wspolrz_y3.ToString() + ") oraz ("
+                + this.wspolrz_x4.ToString()
+                + ", " + this.wspolrz_y4.ToString() + ").";
+        return returning_str;
     }
 
     public bool IsNull
@@ -113,9 +125,9 @@ public struct Trapez : INullable
 
         string[] arguments = s.Value.Split("/".ToCharArray());
 
-        if (arguments.Length != arguments_amount)
+        if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane " + arguments_amount.ToString() + ")");
+            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
         }
 
         List<double> tmp = new List<double>();
@@ -137,8 +149,6 @@ public struct Trapez : INullable
         return u;
     }
 
-    // This is a place-holder field member
-    public static int arguments_amount = 8;
     private bool m_Null;
 }
 
