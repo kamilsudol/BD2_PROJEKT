@@ -31,7 +31,6 @@ namespace projectUDT_app
             }
             catch
             {
-                //Console.Clear();
                 throw new ArgumentException("Wprowadzono niepoprawne dane!");
             }
 
@@ -64,10 +63,8 @@ namespace projectUDT_app
                     figura = Figury.Shape.Kolo.ToString();
                     break;
                 case 9:
-                    //Console.Clear();
                     throw new ArgumentException("Powrot do menu...");
                 default:
-                    //Console.Clear();
                     throw new ArgumentException("Wybrano niewlasciwa opcje!");
             }
             return figura;
@@ -92,8 +89,6 @@ namespace projectUDT_app
                 if (option > 4 || option < 1) throw new ArgumentException("Podano nieprawidlowy numer opcji!");
                 if (option == 4) throw new StoppAppException("Exit...");
 
-                //Console.Clear();
-
                 switch (option) {
                     case 1:
                         WyswietlMenuInsert();
@@ -107,7 +102,6 @@ namespace projectUDT_app
                 }
             }
             catch(Exception e) {
-                //Console.Clear();
                 string err_mssg;
                 if (!e.Message.Equals(""))
                 {
@@ -278,7 +272,7 @@ namespace projectUDT_app
 
             query += ";";
 
-            Console.WriteLine(query);
+            //Console.WriteLine(query);
 
             DBConnection database = new DBConnection();
             database.SelectQuery(query, atrybuty);
@@ -387,7 +381,7 @@ namespace projectUDT_app
             }
 
             query += ";";
-            Console.WriteLine(query);
+            //Console.WriteLine(query);
             DBConnection database = new DBConnection();
             database.DeleteQuery(query);
         }

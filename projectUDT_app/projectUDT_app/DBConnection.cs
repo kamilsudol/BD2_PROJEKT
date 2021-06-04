@@ -29,7 +29,6 @@ namespace projectUDT_app
                     flag = false;
                     foreach (var element in attributes) {
                         Console.WriteLine(reader[element].ToString());
-                        //Console.Write("{0, -20} ", reader[element].ToString());
                     }
                     Console.WriteLine();
                 }
@@ -39,6 +38,10 @@ namespace projectUDT_app
             catch (SqlException e)
             {
                 throw new ArgumentException(e.Message.Split('$')[1]);
+            }
+            finally
+            {
+                this.conn.Close();
             }
         }
 
@@ -53,6 +56,10 @@ namespace projectUDT_app
             catch(SqlException e) {
                 throw new ArgumentException(e.Message.Split('$')[1]);
             }
+            finally
+            {
+                this.conn.Close();
+            }
         }
 
         public void DeleteQuery(string query)
@@ -61,12 +68,22 @@ namespace projectUDT_app
             {
                 this.conn.Open();
                 SqlCommand c = new SqlCommand(query, this.conn);
-                SqlDataReader reader = c.ExecuteReader();
-                throw new ArgumentException("Pomyslnie usunieto dane!");
+                int reader = c.ExecuteNonQuery();
+                if (reader != 0)
+                {
+                    throw new ArgumentException("Pomyslne usuniecie liczby rekordow: " + reader.ToString());
+                }
+                else {
+                    throw new ArgumentException("Brak danych do usuniecia!");
+                }
+                
             }
             catch (SqlException e)
             {
                 throw new ArgumentException(e.Message.Split('$')[1]);
+            }
+            finally {
+                this.conn.Close();
             }
         }
     }
