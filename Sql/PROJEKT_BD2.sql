@@ -29,10 +29,11 @@ SELECT punkt.ToString() as pkt from Punkt;
 INSERT INTO Prosta(prosta) VALUES('-1/1/2/2');
 --INSERT INTO Prosta(prosta) VALUES('0/0/0/0');
 
-SELECT prosta.ToString() as prosta from Prosta;
+SELECT Prosta.ToString()from Prosta;
 --------------------------------------------
 INSERT INTO Trojkat(trojkat) VALUES('-1/1/20/2/3/1');
 INSERT INTO Trojkat(trojkat) VALUES('0/0/0/3/4/0');
+INSERT INTO dbo.Trojkat VALUES('0/0/0/3/4/0');
 
 SELECT trojkat.ToString() as trojkat from Trojkat;
 SELECT trojkat.WyznaczPole() as trojkat from Trojkat;
@@ -69,3 +70,7 @@ INSERT INTO Kolo(kolo) VALUES('0/0/0/4');
 SELECT kolo.ToString() as ko from Kolo;
 SELECT kolo.WyznaczObwod() as ko from Kolo;
 SELECT kolo.WyznaczPole() as ko from Kolo;
+
+SELECT Trojkat.ToString() AS Info, Trojkat.Obwod() AS Obwod FROM dbo.Trojkat WHERE  Trojkat.WyznaczObwod() > convert(nvarchar, 13);
+
+DELETE dbo.Kwadrat WHERE Kwadrat.WyznaczPole() = 16;

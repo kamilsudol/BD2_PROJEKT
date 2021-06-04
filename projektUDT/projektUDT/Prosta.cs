@@ -40,6 +40,16 @@ public struct Prosta : INullable
         return 0.0;
     }
 
+    public string Pole()
+    {
+        return "Pole prostej: 0.0";
+    }
+
+    public string Obwod()
+    {
+        return "Obwod prostej: 0.0";
+    }
+
     public bool Validator() {
         return this.WyznaczDlugosc() != 0;
     }
@@ -82,7 +92,7 @@ public struct Prosta : INullable
 
         if (arguments.Length != 4)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 4)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 4)$");
         }
 
         List<double> tmp = new List<double>();
@@ -96,11 +106,11 @@ public struct Prosta : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Prosta u = new Prosta(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc prostej z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc prostej z podanych punktow!$");
         return u;
     }
 

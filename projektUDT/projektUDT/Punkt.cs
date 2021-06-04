@@ -31,6 +31,16 @@ public struct Punkt : INullable
          return 0.0;
      }
 
+     public string Pole()
+     {
+         return "Pole punktu: 0.0";
+     }
+
+     public string Obwod()
+     {
+         return "Obwod punktu: 0.0";
+     }
+
     public override string ToString()
     {
         string returning_str = "Punkt o wspolrzednych (" + this.wspolrz_x1.ToString()
@@ -65,7 +75,7 @@ public struct Punkt : INullable
 
         if (arguments.Length != 2)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 2)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 2)$");
         }
 
         List<double> tmp = new List<double>();
@@ -79,7 +89,7 @@ public struct Punkt : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
         Punkt u = new Punkt(tmp);
         // Put your code here

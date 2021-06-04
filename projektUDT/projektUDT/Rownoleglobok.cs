@@ -76,6 +76,16 @@ public struct Rownoleglobok : INullable
         return Math.Round(bok_a*wysokosc, 2);
     }
 
+    public string Pole()
+    {
+        return "Pole rownolegloboku: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod rownolegloboku: " + WyznaczObwod().ToString();
+    }
+
     public bool Validator()
     {
         return bok_a == bok_c
@@ -124,7 +134,7 @@ public struct Rownoleglobok : INullable
 
         if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 8)$");
         }
 
         List<double> tmp = new List<double>();
@@ -138,11 +148,11 @@ public struct Rownoleglobok : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Rownoleglobok u = new Rownoleglobok(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc rownolegloboku z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc rownolegloboku z podanych punktow!$");
         return u;
     }
 

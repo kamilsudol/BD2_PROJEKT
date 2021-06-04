@@ -47,6 +47,16 @@ public struct Kolo : INullable
         return Math.Round(Math.Pow(promien, 2) * Math.PI, 2);
     }
 
+    public string Pole()
+    {
+        return "Pole kola: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod kola: " + WyznaczObwod().ToString();
+    }
+
     public bool Validator() {
         return this.promien != 0;
     }
@@ -86,7 +96,7 @@ public struct Kolo : INullable
 
         if (arguments.Length != 4)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 4)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 4)$");
         }
 
         List<double> tmp = new List<double>();
@@ -100,10 +110,10 @@ public struct Kolo : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
         Kolo u = new Kolo(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc kola z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc kola z podanych punktow!$");
         // Put your code here
         return u;
     }

@@ -75,6 +75,16 @@ public struct Kwadrat : INullable
         return Math.Round(Math.Pow(bok_a, 2), 2);
     }
 
+    public string Pole()
+    {
+        return "Pole kwadratu: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod kwadratu: " + WyznaczObwod().ToString();
+    }
+
     public override string ToString()
     {
         string returning_str = "Kwadrat o wspolrzednych (" + this.wspolrz_x1.ToString()
@@ -116,7 +126,7 @@ public struct Kwadrat : INullable
 
         if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 8)$");
         }
 
         List<double> tmp = new List<double>();
@@ -130,11 +140,11 @@ public struct Kwadrat : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Kwadrat u = new Kwadrat(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc kwadratu z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc kwadratu z podanych punktow!$");
         return u;
     }
 

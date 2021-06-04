@@ -76,6 +76,16 @@ public struct Trapez : INullable
         return Math.Round(this.PoleTrojkata(0.5 * p1, bok_a, bok_b, przekatna) + this.PoleTrojkata(0.5 * p2, bok_c, bok_d, przekatna), 2);
     }
 
+    public string Pole()
+    {
+        return "Pole trapezu: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod trapezu: " + WyznaczObwod().ToString();
+    }
+
     public bool Validator() {
         double a_a1 = Math.Abs((wspolrz_y2 - wspolrz_y1) / (wspolrz_x2 - wspolrz_x1));
         double a_a2 = Math.Abs((wspolrz_y4 - wspolrz_y3) / (wspolrz_x4 - wspolrz_x3));
@@ -127,7 +137,7 @@ public struct Trapez : INullable
 
         if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 8)$");
         }
 
         List<double> tmp = new List<double>();
@@ -141,11 +151,11 @@ public struct Trapez : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Trapez u = new Trapez(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc trapezu z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc trapezu z podanych punktow!$");
         return u;
     }
 

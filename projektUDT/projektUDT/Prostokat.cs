@@ -75,6 +75,16 @@ public struct Prostokat : INullable
         return Math.Round(bok_a * bok_b, 2);
     }
 
+    public string Pole()
+    {
+        return "Pole prostokata: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod prostokata: " + WyznaczObwod().ToString();
+    }
+
     public override string ToString()
     {
         string returning_str = "Prostokat o wspolrzednych (" + this.wspolrz_x1.ToString()
@@ -116,7 +126,7 @@ public struct Prostokat : INullable
 
         if (arguments.Length != 8)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 8)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 8)$");
         }
 
         List<double> tmp = new List<double>();
@@ -130,11 +140,11 @@ public struct Prostokat : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Prostokat u = new Prostokat(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc prostokatu z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc prostokatu z podanych punktow!$");
         return u;
     }
 

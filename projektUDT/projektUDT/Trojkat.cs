@@ -62,6 +62,15 @@ public struct Trojkat : INullable
         return Math.Round(Math.Sqrt(p * (p - this.bok_a) * (p - this.bok_b) * (p - this.bok_c)), 2);
     }
 
+    public string Pole() {
+        return "Pole trojkata: " + WyznaczPole().ToString();
+    }
+
+    public string Obwod()
+    {
+        return "Obwod trojkata: " + WyznaczObwod().ToString();
+    }
+
     public bool Validator() {
         return (this.bok_a + this.bok_b) > this.bok_c
                 && (this.bok_a + this.bok_c) > this.bok_b
@@ -112,7 +121,7 @@ public struct Trojkat : INullable
 
         if (arguments.Length != 6)
         {
-            throw new ArgumentException("Niepoprawna liczba argumentów! (wymagane 6)");
+            throw new ArgumentException("$Niepoprawna liczba argumentów! (wymagane 6)$");
         }
 
         List<double> tmp = new List<double>();
@@ -126,11 +135,11 @@ public struct Trojkat : INullable
         }
         catch
         {
-            throw new ArgumentException("Niepoprawny typ danych!");
+            throw new ArgumentException("$Niepoprawny typ danych!$");
         }
 
         Trojkat u = new Trojkat(tmp);
-        if (u.Validator() == false) throw new ArgumentException("Nie da sie utworzyc trojkata z podanych punktow!");
+        if (u.Validator() == false) throw new ArgumentException("$Nie da sie utworzyc trojkata z podanych punktow!$");
         // Put your code here
         return u;
     }
