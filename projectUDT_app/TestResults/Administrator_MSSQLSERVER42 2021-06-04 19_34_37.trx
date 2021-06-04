@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4a5c4470-9567-4061-a25c-7ba46a545a77" name="Administrator@MSSQLSERVER42 2021-06-04 19:34:37" runUser="MSSQLSERVER42\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="bfca1e92-730a-4b5e-9ae2-5bdd31b89376">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\TestResults\Administrator_MSSQLSERVER42 2021-06-04 19_34_37">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\bin\Debug\projectUDT_app.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="39" executed="39" passed="39" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2021-06-04T19:34:37.4260000+02:00" queuing="2021-06-04T19:34:38.0350000+02:00" start="2021-06-04T19:34:38.2890000+02:00" finish="2021-06-04T19:34:39.4180000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestInsertTrojkatFailValidator" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="333eb129-0b3d-9d37-de3e-de520fa29e3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3f080bdb-6055-46fe-9178-33f5c19be709" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestInsertTrojkatFailValidator" />
+    </UnitTest>
+    <UnitTest name="TestSelectKwadratAreaCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="9d064bba-9227-7b5c-52bf-525d865b4abc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ea369787-8aab-42b8-ac0f-e268527c53b9" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestSelectKwadratAreaCompute" />
+    </UnitTest>
+    <UnitTest name="TestInsertKwadratFailValidator" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="d4f1c64a-ccdd-07ce-2119-d3482135fa57">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cb596282-4b05-4b7b-a5e9-08c522fd675a" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestInsertKwadratFailValidator" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="2ea93a8d-cf88-f122-fdea-f7119668a707">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="65936a5b-b1dc-48bd-811f-5c1cca807f1d" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBRownoleglobokTest, projektUDT_test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestInsertPunktFailWrongArgumentsNumber" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="5d05e37c-57df-a219-8b4d-4c6d5d01a8c1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a96cbdcf-c8c9-44fa-9796-0302e5c828df" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestInsertPunktFailWrongArgumentsNumber" />
+    </UnitTest>
+    <UnitTest name="TestSelectPunktLengthCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="7f29ea62-211d-14d5-9ea4-1a810eee40e0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dcc0e6e6-e2e7-453a-a831-6ffc3f7b55be" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestSelectPunktLengthCompute" />
+    </UnitTest>
+    <UnitTest name="TestInsertKwadratFailWrongArgumentsNumber" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="c61b96ec-2b37-4537-2710-67c2ffc69fcf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f4420d09-265e-4009-a857-8e4b02adb438" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestInsertKwadratFailWrongArgumentsNumber" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTrojkatEmpty" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="1aee9c95-504f-b8d9-431f-44fccaeeb976">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3d15fea1-a3bf-4d3b-823c-7077708e2d67" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestDeleteTrojkatEmpty" />
+    </UnitTest>
+    <UnitTest name="TestInsertTrojkatSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="797bfa1f-2a62-e77f-1110-154f0aef2d7f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e3ade454-5be0-415b-9e48-c035f42db656" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestInsertTrojkatSuccess" />
+    </UnitTest>
+    <UnitTest name="TestSelectKwadratInfo" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="28ce0bcc-d96c-f59b-673c-d39894547743">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="90b787f9-50ae-4a3c-a395-c7202149e5a7" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestSelectKwadratInfo" />
+    </UnitTest>
+    <UnitTest name="TestSelectProstaInfo" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="c3e3608c-c792-eb29-17af-36203c86819e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="26b9f190-7057-4b2b-8b6b-a893371e5138" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestSelectProstaInfo" />
+    </UnitTest>
+    <UnitTest name="TestInsertTrojkatFailWrongData" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="96e4cf1a-1cdd-c24d-7680-36dea9c9df89">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9952b982-818d-47b3-832d-41f04915ae4a" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestInsertTrojkatFailWrongData" />
+    </UnitTest>
+    <UnitTest name="TestSelectProstaAreaCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="38ccb642-e60a-164c-2de4-855f34cb4f7d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f6045f8-163d-4210-8785-631f2f7a3747" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestSelectProstaAreaCompute" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="3b808836-c7a9-2fd7-d776-a0c68653ce61">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="788fe1e1-4d5f-45bd-bb68-b19a45b09921" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstokatTest, projektUDT_test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestDeleteKwadratEmpty" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="ec18d84e-ec3d-6351-012f-67d3cf3fd94f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a632dc82-1de3-405c-8bd7-e79bc9ed4797" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestDeleteKwadratEmpty" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="c5c15922-5d35-2123-dd36-c2e3523a09be">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4441a791-769f-4522-98b9-7c800c2b0aac" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrapezTest, projektUDT_test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestInsertProstaFailWrongData" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="ef4b238d-6caf-7d9d-89ac-16da780fea6d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="26c33f50-845f-4d06-ac57-4696984d55af" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestInsertProstaFailWrongData" />
+    </UnitTest>
+    <UnitTest name="TestDeletePunktEmpty" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="cb3175f3-62a4-3574-ebe2-6fd28912f98f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="57501372-29e5-4f5d-8100-7c5ff08c6a06" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestDeletePunktEmpty" />
+    </UnitTest>
+    <UnitTest name="TestInsertKwadratFailWrongData" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="6307ee8f-1847-c00e-f90f-c6f5c7fd658d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="21876a04-5ccc-40c3-87ed-697629a68868" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestInsertKwadratFailWrongData" />
+    </UnitTest>
+    <UnitTest name="TestDeleteKwadratSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="7dd3deed-26fa-f3ca-d063-7cb7c326c390">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a03281f5-99be-4948-839b-4150ed3e9b32" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestDeleteKwadratSuccess" />
+    </UnitTest>
+    <UnitTest name="TestSelectTrojkatLengthCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="46484df8-917e-4249-844a-b14cd5048541">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8b1abbfe-0f66-4a94-8b52-15e987715fd0" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestSelectTrojkatLengthCompute" />
+    </UnitTest>
+    <UnitTest name="TestSelectKwadratLengthCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="1acbd862-75d6-e304-b107-a6a8c0809408">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="498d3419-a6b6-4de6-a4f0-60cd1007264c" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestSelectKwadratLengthCompute" />
+    </UnitTest>
+    <UnitTest name="TestSelectPunktAreaCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="9df9e8d4-89e3-8693-5393-45d41b262b3c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="81b8afed-77e9-42ad-93b2-9a3de3981002" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestSelectPunktAreaCompute" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProstaSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="a2fd893c-ac55-30ef-b198-332b82d0a0b2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="aa92f297-f86a-41f9-a0c3-e307940055f9" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestDeleteProstaSuccess" />
+    </UnitTest>
+    <UnitTest name="TestInsertProstaSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="679a72f6-6f30-16cf-a81a-8bbb7e91987c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4bd51c1c-57c0-4173-be3c-8f1065d32194" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestInsertProstaSuccess" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="5168222d-d1b5-21b3-1c47-01bf4ea82079">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1a8fe239-0fed-4999-973b-7d40dfdc6ef1" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKoloTest, projektUDT_test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestSelectTrojkatInfo" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="b0da2658-3efb-d9fa-bc2a-b6723415d976">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="49800c6a-dcb1-4930-a2ec-114a4eea0753" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestSelectTrojkatInfo" />
+    </UnitTest>
+    <UnitTest name="TestInsertKwadratSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="1e1a5f96-ef22-f23c-8b8d-0e21cb07bffe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="39544507-eda0-45d6-a1d4-055b4286f2d8" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBKwadratTest, projektUDT_test" name="TestInsertKwadratSuccess" />
+    </UnitTest>
+    <UnitTest name="TestInsertProstaFailWrongArgumentsNumber" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="15464a37-67d6-2057-a20c-6cffd2682675">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1f2798b7-595d-427d-9a64-dde079c96c2c" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestInsertProstaFailWrongArgumentsNumber" />
+    </UnitTest>
+    <UnitTest name="TestSelectPunktInfo" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="536cd68c-c085-b510-7f5d-73dadd7a91a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="483562cd-4c45-44b6-a36e-dfed4c50e2b9" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestSelectPunktInfo" />
+    </UnitTest>
+    <UnitTest name="TestInsertPunktFailWrongData" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="ed7aea92-fb78-7480-8f5e-ffc022a352dd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f3b71bd-069e-4f34-ae29-55da8815522a" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestInsertPunktFailWrongData" />
+    </UnitTest>
+    <UnitTest name="TestSelectTrojkatAreaCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="4bd872e7-b72d-78d8-3d82-4785f819026b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3a7effb3-78a7-4be8-88c4-dacfb8037e7c" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestSelectTrojkatAreaCompute" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProstaEmpty" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="23f6dded-c830-4d0c-83a3-c25c4f3d19cf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cc47166b-396c-4b07-9d61-9ec47ecba868" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestDeleteProstaEmpty" />
+    </UnitTest>
+    <UnitTest name="TestInsertPunktSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="7a73e62e-1009-e403-2336-e33c664a0c32">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="84960e41-75bb-43bb-baa8-d0a900ae9fb4" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestInsertPunktSuccess" />
+    </UnitTest>
+    <UnitTest name="TestDeletePunktSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="5bfa5d26-c774-d4de-7033-ad987e78bf1b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b33d63ce-a8c9-4faf-9365-d9008d2d12d3" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBPunktTest, projektUDT_test" name="TestDeletePunktSuccess" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTrojkatSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="1969a1ec-11c6-383f-9b6e-99aab4ff6f03">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="acb1c2ee-7617-4c62-b0b0-b7c8264ccd56" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestDeleteTrojkatSuccess" />
+    </UnitTest>
+    <UnitTest name="TestSelectProstaLengthCompute" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="78b788d1-f3e5-f543-582f-d7779a99251b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="45bfcb5a-4026-4bf4-b1c4-c44902655e57" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestSelectProstaLengthCompute" />
+    </UnitTest>
+    <UnitTest name="TestInsertProstaFailValidator" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="cdb3c195-1d00-e73c-1d5d-41027c8f9000">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c9b1a4e8-26ee-4297-84c7-f868592b18cc" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBProstaTest, projektUDT_test" name="TestInsertProstaFailValidator" />
+    </UnitTest>
+    <UnitTest name="TestInsertTrojkatFailWrongArgumentsNumber" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="653617b9-2e7b-8fd4-3ff4-8b622fb2e7c6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="aa7cbb8e-6fdd-489b-922a-6cadc95f31d4" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.DBTrojkatTest, projektUDT_test" name="TestInsertTrojkatFailWrongArgumentsNumber" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="15464a37-67d6-2057-a20c-6cffd2682675" executionId="1f2798b7-595d-427d-9a64-dde079c96c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1969a1ec-11c6-383f-9b6e-99aab4ff6f03" executionId="acb1c2ee-7617-4c62-b0b0-b7c8264ccd56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1acbd862-75d6-e304-b107-a6a8c0809408" executionId="498d3419-a6b6-4de6-a4f0-60cd1007264c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1aee9c95-504f-b8d9-431f-44fccaeeb976" executionId="3d15fea1-a3bf-4d3b-823c-7077708e2d67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e1a5f96-ef22-f23c-8b8d-0e21cb07bffe" executionId="39544507-eda0-45d6-a1d4-055b4286f2d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23f6dded-c830-4d0c-83a3-c25c4f3d19cf" executionId="cc47166b-396c-4b07-9d61-9ec47ecba868" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28ce0bcc-d96c-f59b-673c-d39894547743" executionId="90b787f9-50ae-4a3c-a395-c7202149e5a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ea93a8d-cf88-f122-fdea-f7119668a707" executionId="65936a5b-b1dc-48bd-811f-5c1cca807f1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="333eb129-0b3d-9d37-de3e-de520fa29e3f" executionId="3f080bdb-6055-46fe-9178-33f5c19be709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38ccb642-e60a-164c-2de4-855f34cb4f7d" executionId="5f6045f8-163d-4210-8785-631f2f7a3747" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b808836-c7a9-2fd7-d776-a0c68653ce61" executionId="788fe1e1-4d5f-45bd-bb68-b19a45b09921" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46484df8-917e-4249-844a-b14cd5048541" executionId="8b1abbfe-0f66-4a94-8b52-15e987715fd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bd872e7-b72d-78d8-3d82-4785f819026b" executionId="3a7effb3-78a7-4be8-88c4-dacfb8037e7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5168222d-d1b5-21b3-1c47-01bf4ea82079" executionId="1a8fe239-0fed-4999-973b-7d40dfdc6ef1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="536cd68c-c085-b510-7f5d-73dadd7a91a6" executionId="483562cd-4c45-44b6-a36e-dfed4c50e2b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bfa5d26-c774-d4de-7033-ad987e78bf1b" executionId="b33d63ce-a8c9-4faf-9365-d9008d2d12d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d05e37c-57df-a219-8b4d-4c6d5d01a8c1" executionId="a96cbdcf-c8c9-44fa-9796-0302e5c828df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6307ee8f-1847-c00e-f90f-c6f5c7fd658d" executionId="21876a04-5ccc-40c3-87ed-697629a68868" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="653617b9-2e7b-8fd4-3ff4-8b622fb2e7c6" executionId="aa7cbb8e-6fdd-489b-922a-6cadc95f31d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="679a72f6-6f30-16cf-a81a-8bbb7e91987c" executionId="4bd51c1c-57c0-4173-be3c-8f1065d32194" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b788d1-f3e5-f543-582f-d7779a99251b" executionId="45bfcb5a-4026-4bf4-b1c4-c44902655e57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="797bfa1f-2a62-e77f-1110-154f0aef2d7f" executionId="e3ade454-5be0-415b-9e48-c035f42db656" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a73e62e-1009-e403-2336-e33c664a0c32" executionId="84960e41-75bb-43bb-baa8-d0a900ae9fb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dd3deed-26fa-f3ca-d063-7cb7c326c390" executionId="a03281f5-99be-4948-839b-4150ed3e9b32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f29ea62-211d-14d5-9ea4-1a810eee40e0" executionId="dcc0e6e6-e2e7-453a-a831-6ffc3f7b55be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96e4cf1a-1cdd-c24d-7680-36dea9c9df89" executionId="9952b982-818d-47b3-832d-41f04915ae4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d064bba-9227-7b5c-52bf-525d865b4abc" executionId="ea369787-8aab-42b8-ac0f-e268527c53b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9df9e8d4-89e3-8693-5393-45d41b262b3c" executionId="81b8afed-77e9-42ad-93b2-9a3de3981002" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2fd893c-ac55-30ef-b198-332b82d0a0b2" executionId="aa92f297-f86a-41f9-a0c3-e307940055f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0da2658-3efb-d9fa-bc2a-b6723415d976" executionId="49800c6a-dcb1-4930-a2ec-114a4eea0753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3e3608c-c792-eb29-17af-36203c86819e" executionId="26b9f190-7057-4b2b-8b6b-a893371e5138" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5c15922-5d35-2123-dd36-c2e3523a09be" executionId="4441a791-769f-4522-98b9-7c800c2b0aac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61b96ec-2b37-4537-2710-67c2ffc69fcf" executionId="f4420d09-265e-4009-a857-8e4b02adb438" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3175f3-62a4-3574-ebe2-6fd28912f98f" executionId="57501372-29e5-4f5d-8100-7c5ff08c6a06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdb3c195-1d00-e73c-1d5d-41027c8f9000" executionId="c9b1a4e8-26ee-4297-84c7-f868592b18cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4f1c64a-ccdd-07ce-2119-d3482135fa57" executionId="cb596282-4b05-4b7b-a5e9-08c522fd675a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec18d84e-ec3d-6351-012f-67d3cf3fd94f" executionId="a632dc82-1de3-405c-8bd7-e79bc9ed4797" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed7aea92-fb78-7480-8f5e-ffc022a352dd" executionId="5f3b71bd-069e-4f34-ae29-55da8815522a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef4b238d-6caf-7d9d-89ac-16da780fea6d" executionId="26c33f50-845f-4d06-ac57-4696984d55af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1f2798b7-595d-427d-9a64-dde079c96c2c" testId="15464a37-67d6-2057-a20c-6cffd2682675" testName="TestInsertProstaFailWrongArgumentsNumber" computerName="MSSQLSERVER42" duration="00:00:00.0812404" startTime="2021-06-04T19:34:38.5180000+02:00" endTime="2021-06-04T19:34:38.8610000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="acb1c2ee-7617-4c62-b0b0-b7c8264ccd56" testId="1969a1ec-11c6-383f-9b6e-99aab4ff6f03" testName="TestDeleteTrojkatSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0057183" startTime="2021-06-04T19:34:38.8670000+02:00" endTime="2021-06-04T19:34:38.8770000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="498d3419-a6b6-4de6-a4f0-60cd1007264c" testId="1acbd862-75d6-e304-b107-a6a8c0809408" testName="TestSelectKwadratLengthCompute" computerName="MSSQLSERVER42" duration="00:00:00.0055179" startTime="2021-06-04T19:34:38.8820000+02:00" endTime="2021-06-04T19:34:38.8920000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d15fea1-a3bf-4d3b-823c-7077708e2d67" testId="1aee9c95-504f-b8d9-431f-44fccaeeb976" testName="TestDeleteTrojkatEmpty" computerName="MSSQLSERVER42" duration="00:00:00.0019730" startTime="2021-06-04T19:34:38.8970000+02:00" endTime="2021-06-04T19:34:38.9030000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39544507-eda0-45d6-a1d4-055b4286f2d8" testId="1e1a5f96-ef22-f23c-8b8d-0e21cb07bffe" testName="TestInsertKwadratSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0024128" startTime="2021-06-04T19:34:38.9070000+02:00" endTime="2021-06-04T19:34:38.9130000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc47166b-396c-4b07-9d61-9ec47ecba868" testId="23f6dded-c830-4d0c-83a3-c25c4f3d19cf" testName="TestDeleteProstaEmpty" computerName="MSSQLSERVER42" duration="00:00:00.0025203" startTime="2021-06-04T19:34:38.9170000+02:00" endTime="2021-06-04T19:34:38.9240000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90b787f9-50ae-4a3c-a395-c7202149e5a7" testId="28ce0bcc-d96c-f59b-673c-d39894547743" testName="TestSelectKwadratInfo" computerName="MSSQLSERVER42" duration="00:00:00.0036550" startTime="2021-06-04T19:34:38.9280000+02:00" endTime="2021-06-04T19:34:38.9350000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65936a5b-b1dc-48bd-811f-5c1cca807f1d" testId="2ea93a8d-cf88-f122-fdea-f7119668a707" testName="TestMethod1" computerName="MSSQLSERVER42" duration="00:00:00.0004721" startTime="2021-06-04T19:34:38.9390000+02:00" endTime="2021-06-04T19:34:38.9460000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f080bdb-6055-46fe-9178-33f5c19be709" testId="333eb129-0b3d-9d37-de3e-de520fa29e3f" testName="TestInsertTrojkatFailValidator" computerName="MSSQLSERVER42" duration="00:00:00.0026476" startTime="2021-06-04T19:34:38.9480000+02:00" endTime="2021-06-04T19:34:38.9550000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f6045f8-163d-4210-8785-631f2f7a3747" testId="38ccb642-e60a-164c-2de4-855f34cb4f7d" testName="TestSelectProstaAreaCompute" computerName="MSSQLSERVER42" duration="00:00:00.0039667" startTime="2021-06-04T19:34:38.9590000+02:00" endTime="2021-06-04T19:34:38.9670000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="788fe1e1-4d5f-45bd-bb68-b19a45b09921" testId="3b808836-c7a9-2fd7-d776-a0c68653ce61" testName="TestMethod1" computerName="MSSQLSERVER42" duration="00:00:00.0004830" startTime="2021-06-04T19:34:38.9710000+02:00" endTime="2021-06-04T19:34:38.9780000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b1abbfe-0f66-4a94-8b52-15e987715fd0" testId="46484df8-917e-4249-844a-b14cd5048541" testName="TestSelectTrojkatLengthCompute" computerName="MSSQLSERVER42" duration="00:00:00.0042816" startTime="2021-06-04T19:34:38.9800000+02:00" endTime="2021-06-04T19:34:38.9890000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a7effb3-78a7-4be8-88c4-dacfb8037e7c" testId="4bd872e7-b72d-78d8-3d82-4785f819026b" testName="TestSelectTrojkatAreaCompute" computerName="MSSQLSERVER42" duration="00:00:00.0052256" startTime="2021-06-04T19:34:38.9930000+02:00" endTime="2021-06-04T19:34:39.0030000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a8fe239-0fed-4999-973b-7d40dfdc6ef1" testId="5168222d-d1b5-21b3-1c47-01bf4ea82079" testName="TestMethod1" computerName="MSSQLSERVER42" duration="00:00:00.0004972" startTime="2021-06-04T19:34:39.0070000+02:00" endTime="2021-06-04T19:34:39.0140000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="483562cd-4c45-44b6-a36e-dfed4c50e2b9" testId="536cd68c-c085-b510-7f5d-73dadd7a91a6" testName="TestSelectPunktInfo" computerName="MSSQLSERVER42" duration="00:00:00.0042186" startTime="2021-06-04T19:34:39.0160000+02:00" endTime="2021-06-04T19:34:39.0250000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b33d63ce-a8c9-4faf-9365-d9008d2d12d3" testId="5bfa5d26-c774-d4de-7033-ad987e78bf1b" testName="TestDeletePunktSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0037089" startTime="2021-06-04T19:34:39.0290000+02:00" endTime="2021-06-04T19:34:39.0370000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a96cbdcf-c8c9-44fa-9796-0302e5c828df" testId="5d05e37c-57df-a219-8b4d-4c6d5d01a8c1" testName="TestInsertPunktFailWrongArgumentsNumber" computerName="MSSQLSERVER42" duration="00:00:00.0025805" startTime="2021-06-04T19:34:39.0410000+02:00" endTime="2021-06-04T19:34:39.0480000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="21876a04-5ccc-40c3-87ed-697629a68868" testId="6307ee8f-1847-c00e-f90f-c6f5c7fd658d" testName="TestInsertKwadratFailWrongData" computerName="MSSQLSERVER42" duration="00:00:00.0029718" startTime="2021-06-04T19:34:39.0520000+02:00" endTime="2021-06-04T19:34:39.0590000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa7cbb8e-6fdd-489b-922a-6cadc95f31d4" testId="653617b9-2e7b-8fd4-3ff4-8b622fb2e7c6" testName="TestInsertTrojkatFailWrongArgumentsNumber" computerName="MSSQLSERVER42" duration="00:00:00.0024380" startTime="2021-06-04T19:34:39.0640000+02:00" endTime="2021-06-04T19:34:39.0700000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bd51c1c-57c0-4173-be3c-8f1065d32194" testId="679a72f6-6f30-16cf-a81a-8bbb7e91987c" testName="TestInsertProstaSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0021227" startTime="2021-06-04T19:34:39.0740000+02:00" endTime="2021-06-04T19:34:39.0800000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45bfcb5a-4026-4bf4-b1c4-c44902655e57" testId="78b788d1-f3e5-f543-582f-d7779a99251b" testName="TestSelectProstaLengthCompute" computerName="MSSQLSERVER42" duration="00:00:00.0036101" startTime="2021-06-04T19:34:39.0850000+02:00" endTime="2021-06-04T19:34:39.0930000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3ade454-5be0-415b-9e48-c035f42db656" testId="797bfa1f-2a62-e77f-1110-154f0aef2d7f" testName="TestInsertTrojkatSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0022236" startTime="2021-06-04T19:34:39.0970000+02:00" endTime="2021-06-04T19:34:39.1040000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84960e41-75bb-43bb-baa8-d0a900ae9fb4" testId="7a73e62e-1009-e403-2336-e33c664a0c32" testName="TestInsertPunktSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0024840" startTime="2021-06-04T19:34:39.1070000+02:00" endTime="2021-06-04T19:34:39.1390000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a03281f5-99be-4948-839b-4150ed3e9b32" testId="7dd3deed-26fa-f3ca-d063-7cb7c326c390" testName="TestDeleteKwadratSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0034226" startTime="2021-06-04T19:34:39.1420000+02:00" endTime="2021-06-04T19:34:39.1490000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dcc0e6e6-e2e7-453a-a831-6ffc3f7b55be" testId="7f29ea62-211d-14d5-9ea4-1a810eee40e0" testName="TestSelectPunktLengthCompute" computerName="MSSQLSERVER42" duration="00:00:00.0022155" startTime="2021-06-04T19:34:39.1510000+02:00" endTime="2021-06-04T19:34:39.1560000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9952b982-818d-47b3-832d-41f04915ae4a" testId="96e4cf1a-1cdd-c24d-7680-36dea9c9df89" testName="TestInsertTrojkatFailWrongData" computerName="MSSQLSERVER42" duration="00:00:00.0018674" startTime="2021-06-04T19:34:39.1590000+02:00" endTime="2021-06-04T19:34:39.1630000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea369787-8aab-42b8-ac0f-e268527c53b9" testId="9d064bba-9227-7b5c-52bf-525d865b4abc" testName="TestSelectKwadratAreaCompute" computerName="MSSQLSERVER42" duration="00:00:00.0024657" startTime="2021-06-04T19:34:39.1660000+02:00" endTime="2021-06-04T19:34:39.1710000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="81b8afed-77e9-42ad-93b2-9a3de3981002" testId="9df9e8d4-89e3-8693-5393-45d41b262b3c" testName="TestSelectPunktAreaCompute" computerName="MSSQLSERVER42" duration="00:00:00.0025750" startTime="2021-06-04T19:34:39.1740000+02:00" endTime="2021-06-04T19:34:39.1790000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa92f297-f86a-41f9-a0c3-e307940055f9" testId="a2fd893c-ac55-30ef-b198-332b82d0a0b2" testName="TestDeleteProstaSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0052792" startTime="2021-06-04T19:34:39.1820000+02:00" endTime="2021-06-04T19:34:39.1970000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="49800c6a-dcb1-4930-a2ec-114a4eea0753" testId="b0da2658-3efb-d9fa-bc2a-b6723415d976" testName="TestSelectTrojkatInfo" computerName="MSSQLSERVER42" duration="00:00:00.0029180" startTime="2021-06-04T19:34:39.2000000+02:00" endTime="2021-06-04T19:34:39.2060000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26b9f190-7057-4b2b-8b6b-a893371e5138" testId="c3e3608c-c792-eb29-17af-36203c86819e" testName="TestSelectProstaInfo" computerName="MSSQLSERVER42" duration="00:00:00.0033397" startTime="2021-06-04T19:34:39.2090000+02:00" endTime="2021-06-04T19:34:39.2150000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4441a791-769f-4522-98b9-7c800c2b0aac" testId="c5c15922-5d35-2123-dd36-c2e3523a09be" testName="TestMethod1" computerName="MSSQLSERVER42" duration="00:00:00.0003441" startTime="2021-06-04T19:34:39.2180000+02:00" endTime="2021-06-04T19:34:39.2230000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4420d09-265e-4009-a857-8e4b02adb438" testId="c61b96ec-2b37-4537-2710-67c2ffc69fcf" testName="TestInsertKwadratFailWrongArgumentsNumber" computerName="MSSQLSERVER42" duration="00:00:00.0022141" startTime="2021-06-04T19:34:39.2240000+02:00" endTime="2021-06-04T19:34:39.2290000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57501372-29e5-4f5d-8100-7c5ff08c6a06" testId="cb3175f3-62a4-3574-ebe2-6fd28912f98f" testName="TestDeletePunktEmpty" computerName="MSSQLSERVER42" duration="00:00:00.0019636" startTime="2021-06-04T19:34:39.2320000+02:00" endTime="2021-06-04T19:34:39.2370000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9b1a4e8-26ee-4297-84c7-f868592b18cc" testId="cdb3c195-1d00-e73c-1d5d-41027c8f9000" testName="TestInsertProstaFailValidator" computerName="MSSQLSERVER42" duration="00:00:00.0019185" startTime="2021-06-04T19:34:39.2400000+02:00" endTime="2021-06-04T19:34:39.2440000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb596282-4b05-4b7b-a5e9-08c522fd675a" testId="d4f1c64a-ccdd-07ce-2119-d3482135fa57" testName="TestInsertKwadratFailValidator" computerName="MSSQLSERVER42" duration="00:00:00.0017524" startTime="2021-06-04T19:34:39.2470000+02:00" endTime="2021-06-04T19:34:39.2510000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a632dc82-1de3-405c-8bd7-e79bc9ed4797" testId="ec18d84e-ec3d-6351-012f-67d3cf3fd94f" testName="TestDeleteKwadratEmpty" computerName="MSSQLSERVER42" duration="00:00:00.0016293" startTime="2021-06-04T19:34:39.2540000+02:00" endTime="2021-06-04T19:34:39.2580000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f3b71bd-069e-4f34-ae29-55da8815522a" testId="ed7aea92-fb78-7480-8f5e-ffc022a352dd" testName="TestInsertPunktFailWrongData" computerName="MSSQLSERVER42" duration="00:00:00.0018632" startTime="2021-06-04T19:34:39.2610000+02:00" endTime="2021-06-04T19:34:39.2660000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26c33f50-845f-4d06-ac57-4696984d55af" testId="ef4b238d-6caf-7d9d-89ac-16da780fea6d" testName="TestInsertProstaFailWrongData" computerName="MSSQLSERVER42" duration="00:00:00.0020699" startTime="2021-06-04T19:34:39.2680000+02:00" endTime="2021-06-04T19:34:39.2730000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

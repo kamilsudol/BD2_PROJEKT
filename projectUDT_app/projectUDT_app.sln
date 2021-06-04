@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projectUDT_app", "projectUDT_app\projectUDT_app.csproj", "{89D654F6-FC4F-40D9-B0F9-0BACBDE1494E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projektUDT_test", "projektUDT_test\projektUDT_test.csproj", "{A9EADCFE-8A87-450D-B906-EFE4F3520168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD864118-07FB-4F1B-ACE3-09F0008B6B19}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		projectUDT_app.vsmdi = projectUDT_app.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = projectUDT_app.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +24,10 @@ Global
 		{89D654F6-FC4F-40D9-B0F9-0BACBDE1494E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D654F6-FC4F-40D9-B0F9-0BACBDE1494E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D654F6-FC4F-40D9-B0F9-0BACBDE1494E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EADCFE-8A87-450D-B906-EFE4F3520168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EADCFE-8A87-450D-B906-EFE4F3520168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EADCFE-8A87-450D-B906-EFE4F3520168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EADCFE-8A87-450D-B906-EFE4F3520168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

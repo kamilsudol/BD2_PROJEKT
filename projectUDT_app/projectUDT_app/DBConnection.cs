@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 
 namespace projectUDT_app
 {
-    class DBConnection
+    public class DBConnection
     {
         private SqlConnection conn;
         private static string sqlconn_str;
@@ -85,6 +85,38 @@ namespace projectUDT_app
             finally {
                 this.conn.Close();
             }
+        }
+
+        public List<string> ExecuteQuery(string query, List<string> attributes)
+        {
+            List<string> result = new List<string>();
+            try
+            {
+                this.conn.Open();
+                SqlCommand c = new SqlCommand(query, this.conn);
+                SqlDataReader reader = c.ExecuteReader();
+
+                bool flag = true;
+                while (reader.Read())
+                {
+                    flag = false;
+                    foreach (var element in attributes)
+                    {
+                        result.Add(reader[element].ToString());
+                    }
+                }
+                if (flag) throw new ArgumentException("Brak danych!");
+
+            }
+            catch (SqlException e)
+            {
+                throw new ArgumentException(e.Message.Split('$')[1]);
+            }
+            finally
+            {
+                this.conn.Close();
+            }
+            return result;
         }
     }
 }

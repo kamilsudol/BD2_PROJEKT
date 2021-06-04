@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4bd100c0-a3ce-420f-9e36-a0743596c806" name="Administrator@MSSQLSERVER42 2021-06-04 20:44:21" runUser="MSSQLSERVER42\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="bfca1e92-730a-4b5e-9ae2-5bdd31b89376">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\TestResults\Administrator_MSSQLSERVER42 2021-06-04 20_44_21">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\bin\Debug\projectUDT_app.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2021-06-04T20:44:21.6200000+02:00" queuing="2021-06-04T20:44:22.2430000+02:00" start="2021-06-04T20:44:22.3910000+02:00" finish="2021-06-04T20:44:22.7630000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestResolveFigureTypeSuccess" storage="c:\users\administrator\documents\visual studio 2008\projects\projectudt_app\projektudt_test\bin\debug\projektudt_test.dll" id="e2b37c3d-4891-831c-a9f1-b26fba751221">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="916073f2-3f45-48b8-b972-010e1adfa4c2" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projektUDT_test\bin\Debug\projektUDT_test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="projektUDT_test.ConsoleAppTest, projektUDT_test" name="TestResolveFigureTypeSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e2b37c3d-4891-831c-a9f1-b26fba751221" executionId="916073f2-3f45-48b8-b972-010e1adfa4c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="916073f2-3f45-48b8-b972-010e1adfa4c2" testId="e2b37c3d-4891-831c-a9f1-b26fba751221" testName="TestResolveFigureTypeSuccess" computerName="MSSQLSERVER42" duration="00:00:00.0055850" startTime="2021-06-04T20:44:22.4430000+02:00" endTime="2021-06-04T20:44:22.6040000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

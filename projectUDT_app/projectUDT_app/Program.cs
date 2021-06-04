@@ -5,7 +5,7 @@ using System.Text;
 
 namespace projectUDT_app
 {
-    class Program
+    public class Program
     {
         public static void WyswietlFigury() {
             Console.WriteLine(@"
@@ -22,18 +22,9 @@ namespace projectUDT_app
             ");
         }
 
-        public static string ResolveFigureType()
+        public static string ResolveFigureType(int option)
         {
-            int option;
-            try
-            {
-                option = int.Parse(Console.ReadLine());
-            }
-            catch
-            {
-                throw new ArgumentException("Wprowadzono niepoprawne dane!");
-            }
-
+            
             string figura = "";
 
             switch (option)
@@ -123,7 +114,18 @@ namespace projectUDT_app
     Wprowadz nowe dane.
     Wybierz figure.");
             WyswietlFigury();
-            string figura = ResolveFigureType();
+
+            int option;
+            try
+            {
+                option = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                throw new ArgumentException("Wprowadzono niepoprawne dane!");
+            }
+
+            string figura = ResolveFigureType(option);
             WprowadzDane(figura);
         }
 
@@ -155,7 +157,18 @@ namespace projectUDT_app
     Wyswietl dane figur.
     Wybierz figure.");
             WyswietlFigury();
-            string figura = ResolveFigureType();
+
+            int option;
+            try
+            {
+                option = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                throw new ArgumentException("Wprowadzono niepoprawne dane!");
+            }
+
+            string figura = ResolveFigureType(option);
             WybierzPolecenie(figura);
         }
 
@@ -336,7 +349,18 @@ namespace projectUDT_app
     Usun dane wybranej figury.
     Wybierz figure.");
             WyswietlFigury();
-            string figura = ResolveFigureType();
+
+            int option;
+            try
+            {
+                option = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                throw new ArgumentException("Wprowadzono niepoprawne dane!");
+            }
+
+            string figura = ResolveFigureType(option);
             DeleteOptions(figura);
         }
 

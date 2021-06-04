@@ -90,7 +90,10 @@ public struct Rownoleglobok : INullable
     {
         return bok_a == bok_c
             && bok_b == bok_d
-            && this.WyznaczPole() != 0;
+            && bok_a != 0
+            && bok_b != 0
+            && bok_c != 0
+            && bok_d != 0;
     }
 
     public override string ToString()
