@@ -128,6 +128,16 @@ namespace projektUDT_test
             List<string> attributes = new List<string>();
             attributes.Add("Obwod");
 
+            string delete_query = "DELETE dbo.Punkt";
+
+            try
+            {
+                db.DeleteQuery(delete_query);
+            }
+            catch (Exception e)
+            {
+            }
+
             try
             {
                 db.InsertQuery(query_insert);
@@ -158,6 +168,16 @@ namespace projektUDT_test
             expected.Add("0");
             List<string> attributes = new List<string>();
             attributes.Add("Pole");
+
+            string delete_query = "DELETE dbo.Punkt";
+
+            try
+            {
+                db.DeleteQuery(delete_query);
+            }
+            catch (Exception e)
+            {
+            }
 
             try
             {

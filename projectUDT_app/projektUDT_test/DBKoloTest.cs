@@ -139,9 +139,19 @@ namespace projektUDT_test
             List<string> result = new List<string>();
 
             List<string> expected = new List<string>();
-            expected.Add("12,57");
+            expected.Add("19,87");
             List<string> attributes = new List<string>();
             attributes.Add("Obwod");
+
+            string delete_query = "DELETE dbo.Kolo";
+
+            try
+            {
+                db.DeleteQuery(delete_query);
+            }
+            catch (Exception e)
+            {
+            }
 
             try
             {
@@ -173,6 +183,16 @@ namespace projektUDT_test
             expected.Add("31,42");
             List<string> attributes = new List<string>();
             attributes.Add("Pole");
+
+            string delete_query = "DELETE dbo.Kolo";
+
+            try
+            {
+                db.DeleteQuery(delete_query);
+            }
+            catch (Exception e)
+            {
+            }
 
             try
             {

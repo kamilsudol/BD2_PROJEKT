@@ -1,5 +1,0 @@
-C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\bin\Debug\projectUDT_app.exe
-C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\bin\Debug\projectUDT_app.pdb
-C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\obj\Debug\projectUDT_app.exe
-C:\Users\Administrator\Documents\Visual Studio 2008\Projects\projectUDT_app\projectUDT_app\obj\Debug\projectUDT_app.pdb
