@@ -136,13 +136,9 @@ namespace projectUDT_app
     Prosze wprowadzic po przecinku
     kolejne wspolrzedne figury.");
 
-            string[] wspolrzedne = Console.ReadLine().Split(',');
-            for (int i = 0; i < wspolrzedne.Length - 1; i++) {
-                query += wspolrzedne[i] + "/";
-            }
+            string wspolrzedne = Console.ReadLine();
 
-            query += wspolrzedne[wspolrzedne.Length - 1];
-
+            query += wspolrzedne;
             query += "');";
 
             DBConnection database = new DBConnection();
